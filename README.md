@@ -51,7 +51,7 @@ pip install pylint-complex-struct
 Or from a checkout:
 
 ```bash
-git clone https://github.com/dgutson/pylint-complex-struct.git
+git clone https://github.com/eclypsium/pylint-complex-struct.git
 cd pylint-complex-struct
 pip install -e .
 ```

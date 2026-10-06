@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pylint-complex-struct"
-version = "0.2.0"
+version = "0.2.1"
 description = "A pylint checker that flags over-nested type annotations and pushes them towards type aliases, NamedTuples and TypedDicts"
 readme = "README.md"
 requires-python = ">=3.10"
@@ -28,9 +28,9 @@ classifiers = [
 dependencies = ["pylint>=4.0"]
 
 [project.urls]
-Homepage = "https://github.com/dgutson/pylint-complex-struct"
-Repository = "https://github.com/dgutson/pylint-complex-struct"
-Issues = "https://github.com/dgutson/pylint-complex-struct/issues"
+Homepage = "https://github.com/eclypsium/pylint-complex-struct"
+Repository = "https://github.com/eclypsium/pylint-complex-struct"
+Issues = "https://github.com/eclypsium/pylint-complex-struct/issues"
 
 [project.optional-dependencies]
 dev = ["pytest>=8"]
