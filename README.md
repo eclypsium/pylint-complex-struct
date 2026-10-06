@@ -44,8 +44,16 @@ deprecated typing constructs — and ruff has no equivalent rule.
 
 Requires Python 3.10+ and pylint 4.0+.
 
+With pip:
+
 ```bash
 pip install pylint-complex-struct
+```
+
+With uv, as a dev dependency of the project that runs pylint:
+
+```bash
+uv add --dev pylint-complex-struct
 ```
 
 Or from a checkout:
@@ -53,7 +61,7 @@ Or from a checkout:
 ```bash
 git clone https://github.com/eclypsium/pylint-complex-struct.git
 cd pylint-complex-struct
-pip install -e .
+pip install -e .        # or: uv pip install -e .
 ```
 
 ## Quick start
